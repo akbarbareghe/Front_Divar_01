@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Yekan';
+    src: url('../font/Yekan.eot') format('eot');
+    src: url('../font/yekan-regular.ttf') format('ttf');
+    src: url('../font/Yekan.woff') format('woff');
+}
+
+p {
+    direction: rtl;
+    font-family: IranNastaliq;
+}
+
+* {
+    margin: 0;
+}
+
+a {
+    font-family: 'Yekan';
+    text-decoration: none;
+    font-size: .875rem;
+}
+
+.btn{
+    background-color: #be3737;
+    border-radius: 4px;
+    padding: 5px 10px;
+
+    color: #fff;
+}
