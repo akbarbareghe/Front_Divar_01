@@ -12,10 +12,11 @@ p {
 
 * {
     margin: 0;
+    font-family: 'Yekan';
 }
 
 a {
-    font-family: 'Yekan';
+    
     text-decoration: none;
     font-size: .875rem;
 }
@@ -24,6 +25,5 @@ a {
     background-color: #be3737;
     border-radius: 4px;
     padding: 5px 10px;
-
     color: #fff;
 }
