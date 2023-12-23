@@ -5,17 +5,11 @@
     box-shadow: 0 1px 2px 0 rgba(0,0,0,.12);
     
 }
-
+/* nav-bar-left */
 .nav-bar-left{
-    width: 40%;
+    width: 30%;
     height: 100%;
-    display: inline-block;
-}
-
-.nav-bar-right{
-    height: 100%;
-    width: 60%;
-    float: right;
+    float: left;
 }
 
 .nav-bar-left ul{
@@ -29,6 +23,14 @@
     float: left;
     padding: 15px;
 }
+/* --------------------------------------------- */
+/* nav-bar-center */
+
+.nav-bar-center{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
 
 .search_in{
     background-color: rgba(0,0,0,.05);
@@ -40,26 +42,52 @@
     outline: 0;
     transition: color .36s;
     direction: rtl;
-    width: 50%;
-    margin: 8px 0px 0px 0px;
+    width: 70%;
+    margin: 8px 10px 0px 0px;
     padding: 8px;
+    float: right;
 } 
 .search_in::placeholder{
     color: rgba(0,0,0,.25);
+}
+
+/* --------------------------------------------- */
+/* nav-bar-right */
+
+.nav-bar-right{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.nav-bar-right a{
+    padding: 15px;
+    float: left;
+}
+
+.categories{
+    margin-left: 70px;
+}
+
+.place{
+    margin-left: 30px;
 }
 
 .kt-divider {
 	display: inline-block;
 	height: 1.5rem;
 	width: 1px;
-    margin-top: 20px;
+    margin: 20px 0px;
     background-color: rgba(0,0,0,.12);
     border: none;
     box-sizing: border-box;
-    margin: 0;
+
 }
 
-.nav-bar-right-buttons{
-    padding: 10px;
-    float: left;
+.logo-divar{
+    width: 60px;
+    height: 60px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
 
