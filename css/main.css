@@ -1,0 +1,29 @@
+.menu{
+    width: 20%;
+    height:  calc(100vh - 64px);
+    background-color: aqua;
+    float: right;
+    margin-right: 40px;
+}
+
+.ads{
+    width: 70%;
+    height:calc(100vh - 64px);;
+    background-color: burlywood;
+    margin-top: 32px;
+    margin-left: 40px;
+    padding-left: 50px;
+    overflow: scroll;
+    
+}
+.ads::-webkit-scrollbar{
+    display: none;
+}
+
+.ad{
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    background-color: brown;
+    float: left;
+}
