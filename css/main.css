@@ -21,9 +21,14 @@
 }
 
 .ad{
-    width: 300px;
-    height: 200px;
-    margin: 20px;
-    background-color: brown;
+    width: 28%;
+    height: 184px;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: #fff;
     float: left;
+
 }
