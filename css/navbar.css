@@ -65,8 +65,8 @@
 }
 
 .nav-bar-right a {
-    padding: 15px;
     float: left;
+    padding-top: 15px;
 }
 
 .categories {
@@ -81,7 +81,7 @@
     display: inline-block;
     height: 1.5rem;
     width: 1px;
-    margin: 20px 0px;
+    margin: 20px 10px;
     background-color: rgba(0, 0, 0, .12);
     border: none;
     box-sizing: border-box;
@@ -93,4 +93,15 @@
     height: 48px;
     margin-left: 50px;
     margin-bottom: 8px;
+}
+
+.nav-bar-right>div{
+    float: left;
+    text-align: center;
+   
+}
+
+.nav-bar-right>div>i{
+    padding-top: 22px;
+    padding-left: 10px;
 }

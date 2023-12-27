@@ -1,8 +1,8 @@
 /* --------------------------------- */
 /* menu */
-.menu{
+.menu {
     width: 20%;
-    height:  calc(100vh - 64px);
+    height: calc(100vh - 64px);
     background-color: #fff;
     float: right;
     margin-right: 40px;
@@ -10,14 +10,14 @@
     padding-right: 20px;
 }
 
-.menu h2{
+.menu h2 {
     font-size: 0.75rem;
     font-weight: 400;
     padding: 10px;
 
 }
 
-.menu a{
+.menu a {
     font-size: 0.9rem;
     display: block;
     padding: 0px 20px 10px 0;
@@ -26,21 +26,23 @@
     color: gray;
 }
 
-.mps{
+.mps {
     font-weight: 500;
     color: black !important;
     margin: 10px 0px;
 }
 
-.menu-links{
+.menu-links {
     text-align: center;
 }
-.menu-links ul{
+
+.menu-links ul {
     list-style-type: none;
     margin-right: 10px;
 
-    }
-.menu-links li{
+}
+
+.menu-links li {
     float: right;
     color: gray;
     padding-left: 15px;
@@ -49,34 +51,74 @@
     line-height: 3;
 }
 
-.menu span{
+.menu span {
     color: #a62626;
 }
 
 /* -------------------------------------- */
 /* ads */
-.ads{
+.ads {
     width: 70%;
-    height:calc(100vh - 64px);;
+    height: calc(100vh - 64px);
+    ;
     background-color: #fff;
     margin-top: 32px;
     padding-left: 50px;
     overflow: scroll;
-    
+
 }
-.ads::-webkit-scrollbar{
+
+.ads::-webkit-scrollbar {
     display: none;
 }
 
-.ad{
+.ad {
     width: 28%;
-    height: 168px;
-    padding: 8px;
+    height: 138px;
+    padding: 16px;
     border: 1px solid rgb(211, 211, 211);
     border-radius: 4px;
     margin-top: 15px;
     margin-left: 15px;
     background-color: #fff;
     float: left;
+}
 
+.ad-left {
+    float: left;
+    height: 100%;
+    width: 40%;
+
+}
+
+.ad-right {
+    float: left;
+    height: 100%;
+    width: 60%;
+    text-align: right;
+}
+
+.ad-left-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.ad-right h2 {
+    font-size: 1rem;
+    color: rgba(0, 0, 0, .87);
+    font-weight: 500;
+    height: 56px;
+    line-height: 28px;
+    margin-bottom: auto;
+    margin-top: 0;
+    overflow-wrap: break-word;
+    display: block;
+}
+
+.ad-right p {
+    color: rgba(0, 0, 0, .56);
+    font-size: .875rem;
+    line-height: 24px;
 }

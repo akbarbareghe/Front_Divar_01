@@ -1,5 +1,6 @@
+
 @font-face {
-    font-family: 'Yekan';
+    font-family: 'Yekan' ;
     src: url('../font/Yekan.eot') format('eot');
     src: url('../font/yekan-regular.ttf') format('ttf');
     src: url('../font/Yekan.woff') format('woff');
@@ -7,8 +8,8 @@
 
 p {
     direction: rtl;
-    font-family: IranNastaliq;
 }
+
 
 * {
     margin: 0;
