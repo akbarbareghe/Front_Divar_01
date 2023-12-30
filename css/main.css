@@ -78,12 +78,19 @@
     height: 20px;
     padding: 5px;
 }
+.social-icons>img:hover{
+    cursor: pointer;
+}
 .logos{
     text-align: center;
 }
 .logos>img{
     width: 84px;
     height: 91px;
+}
+
+.logos>img:hover{
+    cursor: pointer;
 }
 /* -------------------------------------- */
 /* ads */

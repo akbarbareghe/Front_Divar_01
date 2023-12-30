@@ -28,8 +28,8 @@
 .btn{
     background-color: #be3737;
     border-radius: 4px;
-    padding: 5px 10px;
-    color: #fff;
+    padding: 5px 15px !important;
+    color: #fff !important;
 }
 .nav-bar-left li>a{
     color: rgba(0, 0, 0, .57);
@@ -38,6 +38,9 @@
 }
 .nav-bar-left li>a:hover{
     background-color: rgb(231, 231, 231);
+}
+.nav-bar-left li>a>i{
+    margin: 6px;
 }
 
 .btn:hover{
@@ -80,12 +83,24 @@
     width: 30%;
     height: 100%;
     float: left;
+    text-align: center;
 }
 
 .nav-bar-right a {
     color: rgba(0, 0, 0, .57);
     float: left;
-    padding-top: 15px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.nav-bar-right a>i {
+    padding-left: 10px;
+}
+
+.nav-bar-right a:hover{
+    background-color: rgb(231, 231, 231);
+    color: black;
 }
 
 .categories {
@@ -120,7 +135,3 @@
    
 }
 
-.nav-bar-right>div>i{
-    padding-top: 22px;
-    padding-left: 10px;
-}
