@@ -26,6 +26,10 @@
     color: gray;
 }
 
+.menu a:hover {
+    color: black;
+}
+
 .mps {
     font-weight: 500;
     color: black !important;
@@ -51,6 +55,10 @@
     line-height: 3;
 }
 
+.menu-links li:hover{
+    cursor: pointer;
+}
+
 .menu span {
     color: #a62626;
 }
@@ -58,6 +66,24 @@
 .float-right{
     float: right;
     margin: 5px 10px; 
+}
+.social-icons{
+    box-sizing: border-box;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.social-icons>img{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
+.logos{
+    text-align: center;
+}
+.logos>img{
+    width: 84px;
+    height: 91px;
 }
 /* -------------------------------------- */
 /* ads */
