@@ -33,7 +33,7 @@
 }
 
 .menu-links {
-    text-align: center;
+    text-align: right;
 }
 
 .menu-links ul {
@@ -55,6 +55,10 @@
     color: #a62626;
 }
 
+.float-right{
+    float: right;
+    margin: 5px 10px; 
+}
 /* -------------------------------------- */
 /* ads */
 .ads {
